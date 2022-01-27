@@ -1,0 +1,72 @@
+.grid {
+  margin: 5rem auto;
+  width: min(90%, 75rem);
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2em;
+}
+
+.Onlineadfærdsdesign {
+  display: grid;
+  background-color: wheat;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1em 0 2em;
+  margin: 15; 
+}
+
+.underemne1 {
+  display: grid;
+  background-color: wheat;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1em 0 2em;
+  margin: 15; 
+ }
+
+.underemne2 {
+  display: grid;
+}
+
+.underemne3 {
+  display: grid;
+  background-color: wheat;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1em 0 2em;
+  margin: 15; 
+}
+
+.underemne4 {
+  display: grid;
+}
+
+
+@media screen (min-width: 700px) {
+  .grid {
+    grid-auto-flow: row;
+    
+  }
+
+body {
+  min-height: 100vh;
+  font-family: var(--ff-body);
+  font-weight: var(--fw-body);
+  font-size: 1.25rem;
+}
+ 
+
+}
+
+
+@media screen (min-width: 1150px) {
+    
+  .grid {
+      display: grid;
+      grid-gap: 0.5em;
+  }
+  
+  body {
+      font-size: 1.5em;
+  }
+}
